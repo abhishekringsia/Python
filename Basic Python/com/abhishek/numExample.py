@@ -1,6 +1,20 @@
 import numpy as np
 import scipy.ndimage as cor
 
+
+print("Basic numpy array")
+basicnumArr = np.array([1,2,3,4])
+print(basicnumArr)
+print(type(basicnumArr))
+#[1 2 3 4]
+
+print("Basic numpy array ex 2")
+basicnumArr1 = np.array([[1,2,3,4],[4,5,6]])
+print(basicnumArr1)
+print(type(basicnumArr1))
+
+
+
 a = np.arange(5,100)
 print(a)
 ########################################################################
