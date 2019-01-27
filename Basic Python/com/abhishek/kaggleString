@@ -1,0 +1,4 @@
+
+list = ["a", "b", "c" , "d"]
+dict1 = {ele : ele for ele in list};
+print ("my dict " , dict1);
